@@ -8,9 +8,7 @@ import {Component} from "@angular/core";
 export class HomeComponents{
 
 
-  setData(value:string){
-    console.log(value)
-  }
+  name:string='';
 
 
 }
