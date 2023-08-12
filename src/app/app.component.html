@@ -488,9 +488,12 @@
 <header>
 
 
-  <button routerLink="/home" routerLinkActive="active">Home</button>
-  <button routerLink="/customer" routerLinkActive="active">Customer</button>
-  <button routerLink="/orders" routerLinkActive="active">Order</button>
+  <button (click)="navigateToPage('/home')"
+          routerLinkActive="active">Home</button>
+  <button (click)="navigateToPage('/customer')"
+          routerLinkActive="active">Customer</button>
+  <button (click)="navigateToPage('/orders')"
+          routerLinkActive="active">Order</button>
 
 </header>
 <hr>
