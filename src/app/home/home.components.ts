@@ -7,4 +7,6 @@ import {Component} from "@angular/core";
 })
 export class HomeComponents{
 
+  name:string='Samntha B';
+  age:number=45
 }
