@@ -7,14 +7,10 @@ import {Component} from "@angular/core";
 })
 export class HomeComponents{
 
-  data:string=' ';
-
 
   setData(value:string){
-    this.data=value;
+    console.log(value)
   }
 
-  pintData():void{
-    console.log(this.data)
-  }
+
 }

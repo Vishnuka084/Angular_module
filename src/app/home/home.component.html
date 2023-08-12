@@ -2,7 +2,5 @@
 <input type="text "
 
        #myVar
-       (keyup)="setData(myVar.value)"
+       (keydown.enter)="setData(myVar.value)"
        placeholder="type here">
-
-<button (click)="pintData()">Pint Data</button>
