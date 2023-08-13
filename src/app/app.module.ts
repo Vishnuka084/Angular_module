@@ -9,6 +9,7 @@ import { CustomerComponent } from './customer/customer.component';
 import { OrdersComponent } from './orders/orders.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
+import { NewComponent } from './orders/inner-items/new/new.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NotFoundPageComponent } from './not-found-page/not-found-page.component
     CustomerComponent,
     OrdersComponent,
     NotFoundComponent,
-    NotFoundPageComponent
+    NotFoundPageComponent,
+    NewComponent
   ],
   imports: [
     BrowserModule,
