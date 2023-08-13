@@ -9,18 +9,4 @@ import {Router} from "@angular/router";
 })
 export class AppComponent {
 
-  constructor(
-    private router:Router
-  ) {
-  }
-
-  navigateToPage(link: string):void{
-    this.router.navigateByUrl(link)
-      .then(e=>{
-        console.log(e);
-      }).catch(error=>{
-      console.log(error);
-    })
-  }
-
 }
